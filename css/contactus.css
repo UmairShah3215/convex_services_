@@ -1,0 +1,172 @@
+
+.section1{
+    background-image:url("../images/contactbg.png");
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 0.3s ease-in-out !important;
+    padding: 200px 0;
+}
+
+.section1::after{
+    content:"";
+    background-color:#0009;
+    position: absolute;
+    inset:0;
+    transition: 0.3s ease-in-out !important;
+}
+
+.section1:hover:after{
+    content: none;
+    transition: 0.3s ease-in-out !important;
+}
+.section1 .social_list{
+    position:absolute;
+    z-index: 9;
+    top: 40%;
+    left: 95%;
+    transform: translate(-50%,-50%);
+}
+.section1 .contactus_inner{
+    position:relative;
+    z-index: 9 !important;
+
+    /* top: 40%; */
+    /* left: 95%; */
+    /* transform: translate(-50%,-50%); */
+}
+.section1 .social_list ul li {
+    margin: 20px 0;
+    transform: scale(1);
+}
+.section1 .social_list ul li a {
+    color: #fff;
+}
+.section1 .social_list ul li a:hover i {
+    color: #b7fbca;
+    transition: 0.5s;
+    transform: scale(1.5);
+    
+}
+
+.section1 .contact_text{
+    width: 50%;
+    /* position: absolute;
+    z-index: 999;
+    top: 25%; */
+    
+}
+
+.section1 .contact_text h3{
+    max-width: 370px;
+    font-size: 56px;
+    line-height: 56px;
+    color: #fff;
+   
+}
+.section1 .contact_text p{
+    font-size: 16px;
+    line-height: 24px;
+    max-width: 370px;
+    color: #fff;
+}
+
+.section1 .contact_text .address  p strong{
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 700;
+    
+}
+.section1 .contact_text .address  p a{
+    color: #fff;
+}
+
+.section1 .contact_text .address_UAE  p strong{
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 700;
+    
+}
+.section1 .contact_text .address_UAE  p a{
+    color: #fff;
+}
+
+.section1 .contact_text .addresses{
+    display: flex;
+    gap:35px;
+    margin-top: 40px;
+}
+.section1 .contact_text .address_PAK{
+    margin-top: 40px;
+}
+.section1 .contact_text .address_PAK  p strong{
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 700;
+    
+}
+.section1 .contact_text .address_PAK  p a{
+    color: #fff;
+}
+.section1 .contact_form{
+    width: 50%;
+    /* position: absolute;
+    z-index: 999;
+    top: 25%;
+    left: 60%; */
+    background-color: #fff;
+    max-width: 400px;
+    border-radius: 0px 40px 0px 0px;
+    /* min-height: 700px; */
+}
+.section1 .contact_form form{
+    padding: 100px 30px;
+}
+
+.section1 .contact_form form input{
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+}
+.section1 .contact_form form input:focus{
+    border-bottom: 1px solid black;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 0 !important;
+    outline: none !important;
+    box-shadow: none;
+}
+
+.section1 .contact_form form  .company{
+    display: flex;
+}
+
+.section1 .contact_form form textarea{
+    border-bottom: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-radius: 0;
+}
+.section1 .contact_form form textarea:focus{
+    border-bottom: 1px solid black;
+    border-top: none !important;
+    border-left: none !important;
+    border-right: none !important;
+    border-radius: 0 !important;
+    outline: none !important;
+    box-shadow: none;
+}
+.section1 .contact_form form button{
+    padding: 10px 148px;
+    border-radius: 50px;
+    background-color: #f26430;
+    border: 1px solid #f26430;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+}
+
